@@ -1,3 +1,10 @@
 # 匹配数据发起IP(防止走代理使用或使用其它规则)
-# MyList IP规则匹配
-SRC-IP-CIDR,192.168.2.205/32,DIRECT
+# 自定义规则 - WiFi Calling 修复
+DOMAIN-SUFFIX,3gppnetwork.org,DIRECT
+DOMAIN-KEYWORD,ims,DIRECT
+DOMAIN-KEYWORD,epdg,DIRECT
+DOMAIN-KEYWORD,volte,DIRECT
+DOMAIN-KEYWORD,wifi-calling,DIRECT
+DOMAIN-SUFFIX,carrier.com,DIRECT
+# 运营商内网 IP 段（VoWiFi 通道专用）
+IP-CIDR,100.64.0.0/10,DIRECT,no-resolve

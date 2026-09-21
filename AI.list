@@ -1,9 +1,34 @@
 # ==============================
 # AI 补充规则
-# blackmatrix7 已有：
-# OpenAI / Claude / Gemini / Copilot
-# 以下只补充缺少的 AI 服务
+# blackmatrix7 已有：OpenAI / Claude / Gemini
+# 本文件补充：Copilot / xAI / Grok / Perplexity / Cursor / Groq / Meta AI
 # ==============================
+
+# Microsoft Copilot
+DOMAIN,api.msn.com
+DOMAIN,api.statsig.com
+DOMAIN,assets.msn.com
+DOMAIN,browser-intake-datadoghq.com
+DOMAIN,chat.openai.com.cdn.cloudflare.net
+DOMAIN,copilot.microsoft.com
+DOMAIN,gateway.bingviz.microsoft.net
+DOMAIN,gateway.bingviz.microsoftapp.net
+DOMAIN,in.appcenter.ms
+DOMAIN,location.microsoft.com
+DOMAIN,odc.officeapps.live.com
+DOMAIN,openai-api.arkoselabs.com
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,production-openaicom-storage.azureedge.net
+DOMAIN,r.bing.com
+DOMAIN,self.events.data.microsoft.com
+DOMAIN,services.bingapis.com
+DOMAIN,sydney.bing.com
+DOMAIN,www.bing.com
+DOMAIN-SUFFIX,api.microsoftapp.net
+DOMAIN-SUFFIX,edgeservices.bing.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-KEYWORD,openaicom-api
 
 # xAI / Grok
 DOMAIN-SUFFIX,x.ai
